@@ -6,7 +6,7 @@ SELECT
 FROM pets AS pet
 INNER JOIN clientes clie ON pet.cliente_id = clie.id;
 
---DT_AGENDAMENTO, STATUS, NOME_PET, DESCRICÇÃO DO SERVIÇI, PREÇO_DO_SERVIÇO
+--DT_AGENDAMENTO, STATUS, NOME_PET, DESCRICÇÃO DO SERVIÇO, PREÇO_DO_SERVIÇO
 
 SELECT * FROM clientes c    
 
@@ -41,4 +41,5 @@ order by total desc
 
 
 	
+
 	
